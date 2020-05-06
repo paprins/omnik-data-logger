@@ -52,7 +52,7 @@ class OmnikPortalClient(object):
         self.user_id = data['data']['c_user_id']
 
     def getPlants(self):
-        url = '{self.base_url}/plant/list'
+        url = f'{self.base_url}/plant/list'
 
         data = self._api_request(url, 'GET', None)
 
