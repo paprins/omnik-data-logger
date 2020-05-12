@@ -32,7 +32,8 @@ class OmnikPortalClient(object):
         self.app_key = 'Ox7yu3Eivicheinguth9ef9kohngo9oo'
         self.user_id = -1
 
-        self.base_url = 'https://api.omnikportal.com/v1'
+#         self.base_url = 'https://api.omnikportal.com/v1'
+        self.base_url = 'https://api.solarmanpv.com/v1'
 
         self.username = username
         self.password = password
